@@ -1,0 +1,45 @@
+# Arabic Word & PowerPoint (RTL)
+
+[العربية](README.md)
+
+A Claude plugin that makes Arabic Word and PowerPoint files come out right-to-left and correct the first time: tables start on the right, a sentence's final period sits where it belongs, multi-level numbers such as 1.2 read in Arabic order, and the cover page and table of contents are built for you.
+
+## Skills
+
+| Skill | What it does |
+|---|---|
+| `arabic-docx` | Builds an Arabic right-to-left Word file in a Saudi master's-thesis house style: cover page, a table of contents Word fills on open, page numbers starting at the body, native Word tables, equations and pictures. Works from a Claude Doc or directly with no doc. English documents come out in APA 7. |
+| `arabic-pptx` | Builds Arabic PowerPoint decks with correct direction, and repairs decks whose periods or numbers landed on the wrong side, with a reference for shapes, diagrams and SmartArt. |
+
+## Install
+
+From the Claude plugin directory once listed, or in Claude Code:
+
+```bash
+/plugin marketplace add EngDawood/arabic-docx-pptx-skills
+/plugin install arabic-docx-pptx@arabic-docx-pptx-skills
+```
+
+## Example requests
+
+- "Turn this doc into a Word file" with a Claude Doc link.
+- "Write my field training report straight to Word, with a cover and contents."
+- "Make an Arabic PowerPoint about AI in education."
+- "Fix the direction of this deck" with a .pptx attached.
+
+## What the plugin runs
+
+- Only the local Python scripts inside the plugin: `md_to_docx_rtl.py` and `md_to_docx_en.py` (write a .docx) and `rtl_fix.py` (edits a .pptx).
+- When a library is missing, Claude installs `python-docx` or `lxml` from PyPI with pip.
+- To preview, it converts the file to PDF and images locally with LibreOffice and pdftoppm when they are present.
+- When converting a Claude Doc, it reads and exports the doc through the Claude Docs connector in your account.
+
+The scripts make no network calls and send no data anywhere; they read your files and write the output on the same machine.
+
+## Requirements
+
+Python 3 with `python-docx` (Word) and `lxml` (PowerPoint). LibreOffice is optional, for previews.
+
+## License
+
+MIT
