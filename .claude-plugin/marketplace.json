@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
   "name": "arabic-docx-pptx-skills",
   "owner": {
     "name": "EngDawood",

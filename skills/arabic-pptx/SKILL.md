@@ -1,12 +1,6 @@
 ---
 name: arabic-pptx
-description: >
-  Builds and repairs Arabic right-to-left PowerPoint decks so direction,
-  punctuation, numbering and tables render correctly. Use when the user asks
-  for a presentation in Arabic ("عرض بوربوينت بالعربي", "برزنتيشن", "عرض تقديمي"),
-  reports an Arabic .pptx whose sentence-final period or multi-level number
-  (1.2) shows on the wrong side, or wants shapes, diagrams or SmartArt in an
-  Arabic deck.
+description: Builds and repairs Arabic right-to-left PowerPoint decks so direction, punctuation, numbering and tables render correctly. Use when the user asks for a presentation in Arabic ("عرض بوربوينت بالعربي", "برزنتيشن", "عرض تقديمي"), reports an Arabic .pptx whose sentence-final period or multi-level number (1.2) shows on the wrong side, or wants shapes, diagrams or SmartArt in an Arabic deck.
 ---
 
 # Arabic PPTX

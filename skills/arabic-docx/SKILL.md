@@ -1,8 +1,6 @@
 ---
 name: arabic-docx
 description: Builds Arabic right-to-left Word .docx files (Saudi thesis house style; English in APA 7), from a Claude Doc or written directly. Use for Claude Doc to Word (تحويل المستند إلى ورد), a Word file with no Claude Doc (docx مباشرة), or a formal report with cover and contents (غلاف + فهرس).
-category: Documents & Academic Writing
-title_ar: تحويل مستندات Claude إلى ورد (عربي RTL و APA)
 ---
 
 # Arabic docx (Claude Doc → Word, or Word directly)
