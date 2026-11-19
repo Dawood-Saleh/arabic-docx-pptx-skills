@@ -29,12 +29,12 @@ From the Claude plugin directory once listed, or in Claude Code:
 
 ## What the plugin runs
 
-- Only the local Python scripts inside the plugin: `md_to_docx_rtl.py` and `md_to_docx_en.py` (write a .docx) and `rtl_fix.py` (edits a .pptx).
+- The plugin is instructions and reference text only, with no scripts. For each file, Claude writes a short Python program in its working folder that builds the .docx or sets the direction of the .pptx by these references, then runs it in the same working environment.
 - When a library is missing, Claude installs `python-docx` or `lxml` from PyPI with pip.
 - To preview, it converts the file to PDF and images locally with LibreOffice and pdftoppm when they are present.
 - When converting a Claude Doc, it reads and exports the doc through the Claude Docs connector in your account.
 
-The scripts make no network calls and send no data anywhere; they read your files and write the output on the same machine.
+The programs Claude writes for these tasks make no network calls and send no data anywhere; they read your files and write the output in the same environment.
 
 ## Requirements
 
