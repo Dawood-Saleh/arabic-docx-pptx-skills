@@ -1,23 +1,33 @@
 {
   "name": "arabic-docx-pptx",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "displayName": "Arabic Word & PowerPoint (RTL)",
   "description": "Arabic right-to-left Word and PowerPoint files that open correct: Word reports in a Saudi thesis house style (cover, contents, equations, tables) from a Claude Doc or written directly, English Word papers in APA 7, and Arabic decks with correct direction, punctuation and numbering.",
   "author": {
-    "name": "EngDawood",
-    "url": "https://github.com/EngDawood"
+    "name": "Dawood Saleh",
+    "email": "davidhormos@gmail.com",
+    "url": "https://github.com/Dawood-Saleh"
   },
-  "homepage": "https://github.com/EngDawood/arabic-docx-pptx-skills",
-  "repository": "https://github.com/EngDawood/arabic-docx-pptx-skills",
+  "homepage": "https://github.com/Dawood-Saleh/arabic-docx-pptx-skills",
+  "repository": "https://github.com/Dawood-Saleh/arabic-docx-pptx-skills",
   "license": "MIT",
+  "icon": ".claude-plugin/icon.png",
   "keywords": [
     "arabic",
     "rtl",
+    "right-to-left",
     "docx",
     "word",
     "pptx",
     "powerpoint",
+    "report",
+    "thesis",
     "apa",
-    "عربي"
+    "saudi",
+    "عربي",
+    "وورد",
+    "بوربوينت",
+    "تقرير",
+    "عرض تقديمي"
   ]
 }

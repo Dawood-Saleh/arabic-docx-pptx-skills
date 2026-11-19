@@ -1,8 +1,8 @@
 {
   "name": "arabic-docx-pptx-skills",
   "owner": {
-    "name": "EngDawood",
-    "url": "https://github.com/EngDawood"
+    "name": "Dawood Saleh",
+    "url": "https://github.com/Dawood-Saleh"
   },
   "metadata": {
     "description": "Arabic right-to-left Word and PowerPoint skills for Claude."
@@ -12,7 +12,15 @@
       "name": "arabic-docx-pptx",
       "source": "./",
       "description": "Arabic RTL Word (.docx) and PowerPoint (.pptx) files with correct direction, cover, contents and numbering; English Word in APA 7.",
-      "category": "productivity"
+      "category": "productivity",
+      "tags": [
+        "documents",
+        "academic-writing",
+        "arabic",
+        "rtl",
+        "word",
+        "powerpoint"
+      ]
     }
   ]
 }
