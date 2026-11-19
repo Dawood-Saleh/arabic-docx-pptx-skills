@@ -4,19 +4,21 @@
 
 A Claude plugin that makes Arabic Word and PowerPoint files come out right-to-left and correct the first time: tables start on the right, a sentence's final period sits where it belongs, multi-level numbers such as 1.2 read in Arabic order, and the cover page and table of contents are built for you.
 
+Category: Documents & Academic Writing.
+
 ## Skills
 
-| Skill | What it does |
-|---|---|
-| `arabic-docx` | Builds an Arabic right-to-left Word file in a Saudi master's-thesis house style: cover page, a table of contents Word fills on open, page numbers starting at the body, native Word tables, equations and pictures. Works from a Claude Doc or directly with no doc. English documents come out in APA 7. |
-| `arabic-pptx` | Builds Arabic PowerPoint decks with correct direction, and repairs decks whose periods or numbers landed on the wrong side, with a reference for shapes, diagrams and SmartArt. |
+| Skill | Arabic name | What it does |
+|---|---|---|
+| `arabic-docx` | تحويل مستندات Claude إلى ورد (عربي RTL و APA) | Builds an Arabic right-to-left Word file in a Saudi master's-thesis house style: cover page, a table of contents Word fills on open, page numbers starting at the body, native Word tables, equations and pictures. Works from a Claude Doc or directly with no doc. English documents come out in APA 7. |
+| `arabic-pptx` | عروض بوربوينت عربية صحيحة الاتجاه | Builds Arabic PowerPoint decks with correct direction, and repairs decks whose periods or numbers landed on the wrong side, with a reference for shapes, diagrams and SmartArt. |
 
 ## Install
 
 From the Claude plugin directory once listed, or in Claude Code:
 
 ```bash
-/plugin marketplace add EngDawood/arabic-docx-pptx-skills
+/plugin marketplace add Dawood-Saleh/arabic-docx-pptx-skills
 /plugin install arabic-docx-pptx@arabic-docx-pptx-skills
 ```
 
