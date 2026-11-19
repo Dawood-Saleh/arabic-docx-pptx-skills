@@ -11,7 +11,7 @@
   "homepage": "https://github.com/Dawood-Saleh/arabic-docx-pptx-skills",
   "repository": "https://github.com/Dawood-Saleh/arabic-docx-pptx-skills",
   "license": "MIT",
-  "icon": "icon.png",
+  "icon": "./icon.png",
   "keywords": [
     "arabic",
     "rtl",
